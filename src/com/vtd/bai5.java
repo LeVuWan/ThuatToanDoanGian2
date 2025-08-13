@@ -33,10 +33,10 @@ public class bai5 {
 	}
 
 	private static void xuatNhanVien(NhanVien nhanVien) {
-		System.out.println("Ten nhan vien: " + nhanVien.hoTen);
-		System.out.println("Tuoi nhan vien: " + nhanVien.tuoi);
-		System.out.println("Gioi tinh nhan vien: " + nhanVien.gioiTinh);
-		System.out.println("Luong nhan vien: " + nhanVien.luong);
-		System.out.println("Diem trung binh nhan vien: " + nhanVien.diemTrungBinh);
+		System.out.println("Ten nhan vien: " + nhanVien.getHoTen());
+		System.out.println("Tuoi nhan vien: " + nhanVien.getTuoi());
+		System.out.println("Gioi tinh nhan vien: " + nhanVien.getGioiTinh());
+		System.out.println("Luong nhan vien: " + nhanVien.getLuong());
+		System.out.println("Diem trung binh nhan vien: " + nhanVien.getDiemTrungBinh());
 	}
 }
